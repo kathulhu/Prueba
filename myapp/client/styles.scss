@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif;
+  color: #999999;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.browser{
+  background-color: #FFE600;
+  .browser-input-container {
+    .logo{
+      width: 40px;
+      position: relative;
+      top: 9px;
+      margin-right: 20px;
+    }
+    overflow: hidden;
+    height: 50px;
+    margin: auto;
+    width: 70%;
+    .browser-input {
+      width: 86%;
+      height: 28px;
+      border-radius: 4px 0px 0px 4px;
+      border: 1px solid #fdfdfd;
+      padding: 0px 5px;
+    }
+
+    .browser-image {
+      position: relative;
+      top: 10px;
+      width: 16px;
+      padding: 6px;
+      background-color: #EEEEEE;
+      border-radius: 0px 4px 4px 0px;
+      cursor: pointer;
+    }
+  }
+}
+.container{
+  min-height: 500px;
+  background-color: #EEEEEE;
+  .items-container{
+    background-color: #EEEEEE;
+    padding-top: 40px;
+    .item {
+      border-bottom: 1px solid #EEEEEE;
+      cursor: pointer;
+      width: 50%;
+      margin: auto;
+      height: 150px;
+      padding: 10px;
+      background-color: white;
+      .item-left{
+        width: 30%;
+        position: relative;
+        float: left;
+        .item-image{
+          width: 149px;
+          height: 149px;
+        }
+      }
+      .item-right{
+        width: 70%;
+        position: relative;
+        float: right;
+        .item-price-container{
+          font-size: 23px;
+          margin-bottom: 30px;
+          .item-price{
+            margin: 0px 8px 0px 0px;
+          }
+        }
+      }
+    }
+  }
+  .detail-container{
+    background-color: #EEEEEE;
+    padding: 40px;
+    overflow: hidden;
+    .detail {
+      width: 75%;
+      background-color: white;
+      margin: auto 10%;
+      padding: 25px;
+      float: left;
+      .detail-left{
+        width: 70%;
+        float: left;
+        .detail-image{
+          width: 90%;
+        }
+        .detail-description-container{
+          margin: 20px 0px;
+          .detail-description-title{
+            font-size: 25px;
+          }
+          .detail-description{
+            font-size: 14px;
+            padding: 20px 0px;
+          }
+        }
+      }
+      .detail-right{
+        width: calc(100% - 70%);
+        float: right;
+        .detail-price-container{
+          font-size: 23px;
+          margin-top: 30px;
+          .detail-price{
+            margin: 0px 8px 0px 0px;
+          }
+        }
+        .button-detail{
+          margin: 30px 0px;
+          background-color: #3483fa;
+          width: 88%;
+          padding: 10px 20px;
+          font-size: 19px;
+          border-color: #3483fa;
+          color: white;
+        }
+      }
+
+    }
+  }
+}
+
