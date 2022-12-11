@@ -7,7 +7,7 @@
     "dev": "webpack --watch --info-verbosity:verbose -d --progress --config ./webpack.config.js --mode development"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-fetch": "^2.6.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
